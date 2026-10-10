@@ -1,0 +1,780 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator https://github.com/uPesy/easyeda2kicad.py)
+
+  (symbol "D_1N4148WS_SOD323"
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "D?" (id 0) (at 0 5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "1N4148WS" (id 1) (at 0 -5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "easyeda:SOD-323_L1.8-W1.3-LS2.5-RD" (id 2) (at 0 -7.62 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://lcsc.com/product-detail/C2128.html" (id 3) (at 0 -10.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "Diodo Conmutación Rápido SOD-323 JLCPCB Basic [C2128]" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Keywords" "diodo diode 1n4148ws sod323 sod-323 C2128" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC" "C2128" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC Part" "C2128" (id 7) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "D_1N4148WS_SOD323_0_1"
+      (polyline
+        (pts
+          (xy 1.27 1.52) (xy -1.27 -0.00) (xy 1.27 -1.52) (xy 1.27 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -1.52) (xy -1.27 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 5.08 -0.00 180)
+        (length 3.81)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -0.00 0)
+        (length 3.81)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "D_Schottky_B5819W_SOD123"
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "D?" (id 0) (at 0 5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "B5819W" (id 1) (at 0 -5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "easyeda:SOD-123_L2.7-W1.6-LS3.7-RD-1" (id 2) (at 0 -7.62 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://lcsc.com/product-detail/C8598.html" (id 3) (at 0 -10.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "Diodo Schottky 40V 1A SOD-123 JLCPCB Basic [C8598]" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Keywords" "diodo schottky b5819w sod123 sod-123 C8598" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC" "C8598" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC Part" "C8598" (id 7) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "D_Schottky_B5819W_SOD123_0_1"
+      (polyline
+        (pts
+          (xy 1.27 1.52) (xy -1.27 -0.00) (xy 1.27 -1.52) (xy 1.27 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -0.51 -1.78) (xy -0.51 -2.29) (xy -1.27 -2.29) (xy -1.27 1.02) (xy -1.27 1.78) (xy -2.03 1.78) (xy -2.03 1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -5.08 -0.00 0)
+        (length 3.81)
+        (name "-" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 5.08 -0.00 180)
+        (length 3.81)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "D_Schottky_SS34_SMA"
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "D?" (id 0) (at 0 5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SS34" (id 1) (at 0 -5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "easyeda:SMA_L4.3-W2.6-LS5.2-RD" (id 2) (at 0 -7.62 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://lcsc.com/product-detail/C8678.html" (id 3) (at 0 -10.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "Diodo Schottky 40V 3A SMA JLCPCB Basic [C8678]" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Keywords" "diodo schottky ss34 sma C8678" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC" "C8678" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC Part" "C8678" (id 7) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "D_Schottky_SS34_SMA_0_1"
+      (polyline
+        (pts
+          (xy 1.27 1.52) (xy -1.27 -0.00) (xy 1.27 -1.78) (xy 1.27 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -0.00) (xy -1.27 -2.03) (xy -0.76 -2.03) (xy -0.76 -1.78)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -0.00) (xy -1.27 2.03) (xy -1.78 2.03) (xy -1.78 1.78)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 5.08 -0.00 180)
+        (length 3.81)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -0.00 0)
+        (length 3.81)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "LED_0805_ROJO"
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "LED?" (id 0) (at 0 5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ROJO" (id 1) (at 0 -5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "easyeda:LED0805-RD" (id 2) (at 0 -7.62 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://lcsc.com/product-detail/C84256.html" (id 3) (at 0 -10.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "LED SMD 0805 Rojo Difuso JLCPCB Basic [C84256]" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Keywords" "led 0805 rojo red C84256" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC" "C84256" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC Part" "C84256" (id 7) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "LED_0805_ROJO_0_1"
+      (polyline
+        (pts
+          (xy -3.81 2.03) (xy -2.79 1.52) (xy -3.30 1.02) (xy -3.81 2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -2.79 3.05) (xy -1.78 2.54) (xy -2.29 2.03) (xy -2.79 3.05)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -2.79) (xy -1.27 -1.27) (xy 1.27 0.51) (xy 1.27 -2.79)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -2.03 0.25) (xy -3.81 2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.02 1.27) (xy -2.79 3.05)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 0.76) (xy -1.27 -3.30)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 5.08 -1.27 180)
+        (length 3.81)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -1.27 0)
+        (length 3.81)
+        (name "-" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "LED_0805_VERDE"
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "LED?" (id 0) (at 0 5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "VERDE" (id 1) (at 0 -5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "easyeda:LED0805-R-RD" (id 2) (at 0 -7.62 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://lcsc.com/product-detail/C84260.html" (id 3) (at 0 -10.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "LED SMD 0805 Verde Difuso JLCPCB Basic [C84260]" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Keywords" "led 0805 verde green C84260" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC" "C84260" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC Part" "C84260" (id 7) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "LED_0805_VERDE_0_1"
+      (polyline
+        (pts
+          (xy -3.81 2.29) (xy -2.79 1.78) (xy -3.30 1.27) (xy -3.81 2.29)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -2.79 3.30) (xy -1.78 2.79) (xy -2.29 2.29) (xy -2.79 3.30)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -2.54) (xy -1.27 -1.02) (xy 1.27 0.76) (xy 1.27 -2.54)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -2.03 0.51) (xy -3.81 2.29)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.02 1.52) (xy -2.79 3.30)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 1.02) (xy -1.27 -3.05)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -5.08 -1.27 0)
+        (length 3.81)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 5.08 -1.27 180)
+        (length 3.81)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "LED_0805_AZUL"
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "LED?" (id 0) (at 0 5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "AZUL" (id 1) (at 0 -5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "easyeda:LED0805-R-RD" (id 2) (at 0 -7.62 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://lcsc.com/product-detail/C84261.html" (id 3) (at 0 -10.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "LED SMD 0805 Azul Brillante JLCPCB Basic [C84261]" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Keywords" "led 0805 azul blue C84261" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC" "C84261" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC Part" "C84261" (id 7) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "LED_0805_AZUL_0_1"
+      (polyline
+        (pts
+          (xy 3.81 2.03) (xy 2.79 1.52) (xy 3.30 1.02) (xy 3.81 2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 2.79 3.05) (xy 1.78 2.54) (xy 2.29 2.03) (xy 2.79 3.05)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -1.27 -2.79) (xy 1.27 -1.27) (xy -1.27 0.51) (xy -1.27 -2.79)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 2.03 0.25) (xy 3.81 2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.02 1.27) (xy 2.79 3.05)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 0.76) (xy 1.27 -3.30)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 5.08 -1.27 180)
+        (length 3.81)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -1.27 0)
+        (length 3.81)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "LED_0805_AMARILLO"
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "LED?" (id 0) (at 0 5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "AMARILLO" (id 1) (at 0 -5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "easyeda:LED0805-RD_ORANGE" (id 2) (at 0 -7.62 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://lcsc.com/product-detail/C84262.html" (id 3) (at 0 -10.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "LED SMD 0805 Amarillo JLCPCB Basic [C84262]" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Keywords" "led 0805 amarillo yellow C84262" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC" "C84262" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC Part" "C84262" (id 7) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "LED_0805_AMARILLO_0_1"
+      (polyline
+        (pts
+          (xy -3.81 2.03) (xy -2.79 1.52) (xy -3.30 1.02) (xy -3.81 2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -2.79 3.05) (xy -1.78 2.54) (xy -2.29 2.03) (xy -2.79 3.05)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 1.27 -2.79) (xy -1.27 -1.27) (xy 1.27 0.51) (xy 1.27 -2.79)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -2.03 0.25) (xy -3.81 2.03)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.02 1.27) (xy -2.79 3.05)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.27 0.76) (xy -1.27 -3.30)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -5.08 -1.27 0)
+        (length 3.81)
+        (name "-" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 5.08 -1.27 180)
+        (length 3.81)
+        (name "+" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "TVS_ESD_SRV05-4_SOT23-6"
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "D?" (id 0) (at 0 5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SRV05-4" (id 1) (at 0 -5.08 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "easyeda:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR" (id 2) (at 0 -7.62 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://lcsc.com/product-detail/C19829547.html" (id 3) (at 0 -10.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Description" "Diodo Protección ESD/TVS 4 Ch USB/CAN SOT-23-6 [C19829547]" (id 4) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Keywords" "tvs esd proteccion srv05 srv05-4 sot-23-6 C19829547" (id 5) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC" "C19829547" (id 6) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "LCSC Part" "C19829547" (id 7) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "TVS_ESD_SRV05-4_SOT23-6_0_1"
+      (circle
+        (center 10.16 0.51)
+        (radius 0.25)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle
+        (center 5.08 -0.00)
+        (radius 0.25)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle
+        (center -5.08 0.51)
+        (radius 0.25)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle
+        (center -10.16 -0.25)
+        (radius 0.25)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle
+        (center -5.08 -4.83)
+        (radius 0.25)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle
+        (center -5.08 5.33)
+        (radius 0.25)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle
+        (center 5.08 5.33)
+        (radius 0.25)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle
+        (center 5.08 -4.83)
+        (radius 0.25)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle
+        (center 0.00 -4.83)
+        (radius 0.25)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (circle
+        (center 0.00 5.33)
+        (radius 0.25)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.52 -1.02) (xy 0.00 1.52) (xy -1.52 -1.02) (xy 1.52 -1.02)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 11.68 1.52) (xy 10.16 4.06) (xy 8.64 1.52) (xy 11.68 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 11.68 -3.81) (xy 10.16 -1.27) (xy 8.64 -3.81) (xy 11.68 -3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 6.60 1.52) (xy 5.08 4.06) (xy 3.56 1.52) (xy 6.60 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy 6.60 -3.81) (xy 5.08 -1.27) (xy 3.56 -3.81) (xy 6.60 -3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -3.56 1.52) (xy -5.08 4.06) (xy -6.60 1.52) (xy -3.56 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -3.56 -3.81) (xy -5.08 -1.27) (xy -6.60 -3.81) (xy -3.56 -3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -8.64 1.52) (xy -10.16 4.06) (xy -11.68 1.52) (xy -8.64 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -8.64 -3.81) (xy -10.16 -1.27) (xy -11.68 -3.81) (xy -8.64 -3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -1.52 1.52) (xy -2.03 0.76)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.00 -4.83) (xy 0.00 -6.60)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 0.51) (xy 7.62 0.51) (xy 7.62 6.60)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -0.00) (xy 7.62 -0.00) (xy 7.62 -6.60)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.00 7.11) (xy 0.00 5.33)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 0.51) (xy -7.62 0.51) (xy -7.62 6.10) (xy -7.62 6.35)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.41 -0.25) (xy -7.62 -0.25) (xy -7.62 -6.35) (xy -7.62 -6.35)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.00 1.52) (xy 0.00 5.33)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.00 -1.02) (xy 0.00 -4.83)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 -3.81) (xy -5.08 -4.57) (xy -5.08 -4.83) (xy -5.08 -4.57)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -3.81) (xy 5.08 -4.83)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 -3.81) (xy -10.16 -4.83) (xy 10.16 -4.83) (xy 10.16 -3.81)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 4.06) (xy -5.08 5.33)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 4.06) (xy 5.08 5.33)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 4.06) (xy -10.16 5.33) (xy 10.16 5.33) (xy 10.16 4.06)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -1.27) (xy 10.16 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -1.27) (xy 5.08 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 -1.27) (xy -5.08 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -10.16 -1.27) (xy -10.16 1.52)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.52 1.52) (xy 1.52 1.52) (xy 2.03 2.29)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 8.64 4.06) (xy 11.68 4.06)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 8.64 -1.27) (xy 11.68 -1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.56 4.06) (xy 6.60 4.06)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.56 -1.27) (xy 6.60 -1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -6.60 4.06) (xy -3.56 4.06)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -6.60 -1.27) (xy -3.56 -1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -11.68 4.06) (xy -8.64 4.06)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -11.68 -1.27) (xy -8.64 -1.27)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -7.62 11.43 270)
+        (length 5.08)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 0.00 11.43 270)
+        (length 5.08)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 11.43 270)
+        (length 5.08)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -11.43 90)
+        (length 5.08)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 0.00 -11.43 90)
+        (length 5.08)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -11.43 90)
+        (length 5.08)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
