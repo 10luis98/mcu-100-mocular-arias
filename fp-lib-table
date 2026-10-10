@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "mega-mcu100")(type "KiCad")(uri "${KIPRJMOD}/lib/mega-mcu100.pretty")(options "")(descr "Hellen-One Mega MCU-100 Module"))
+)
