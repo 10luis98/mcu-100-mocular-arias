@@ -3,4 +3,4 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J2","Espadines_2x15_Macho","PinHeader_2x15_P2.54mm_Vertical",8.812493,49.887495,90.000000,top
 "J3","Espadines_2x15_Macho","PinHeader_2x15_P2.54mm_Vertical",43.797493,5.702495,-90.000000,top
 "J4","Espadines_2x15_Macho","PinHeader_2x15_P2.54mm_Vertical",2.487493,46.202495,0.000000,top
-"M1","Module:mega-mcu100/0.3","mega-mcu100",8.399995,9.224995,0.000000,top
+"M1","Module:mega-mcu100/0.3","mega-mcu100",9.324995,9.699995,0.000000,top
