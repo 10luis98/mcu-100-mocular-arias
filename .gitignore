@@ -4,14 +4,19 @@
 *.kicad_sch-bak
 *-save.kicad_pcb
 *-save.kicad_sch
+*-backups/
 *.bck
 *.lck
 _autosave-*
 *.kicad_dru
 
-# Output directories
-gerber/
-gerbers/
-*.zip
+# Ignore zip archives in hellen-one submodule
+hellen-one/**/*.zip
 
+# Ignore gerber folders in hellen-one subprojects except the pcb-tools python package
+hellen-one/**/gerber/
+hellen-one/**/gerbers/
+!hellen-one/bin/pcb-tools/gerber/
+
+# Output directories
 fp-info-cache
