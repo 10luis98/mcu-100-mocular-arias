@@ -1,1 +1,3 @@
 # BOM replacement file for mcu-100-modular-a
+# Reemplazo U103: AP2337SA-7 (C150497, sin stock en JLCPCB) -> AP2331SA-7 (C500764, compatible pin a pin)
+U103,AP2331SA-7,SOT-23,C500764

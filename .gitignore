@@ -20,3 +20,8 @@ hellen-one/**/gerbers/
 
 # Output directories
 fp-info-cache
+
+# Autosave and temporary backup files
+#*#
+*.bak_*
+
