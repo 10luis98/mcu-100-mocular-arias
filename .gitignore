@@ -13,3 +13,5 @@ _autosave-*
 gerber/
 gerbers/
 *.zip
+
+fp-info-cache
