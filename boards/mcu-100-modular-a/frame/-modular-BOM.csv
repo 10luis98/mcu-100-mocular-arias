@@ -3,4 +3,4 @@ Comment,Designator,Footprint,LCSC Part #
 "Espadines_2x15_Macho","J2","PinHeader_2x15_P2.54mm_Vertical",""
 "Espadines_2x15_Macho","J3","PinHeader_2x15_P2.54mm_Vertical",""
 "Espadines_2x15_Macho","J4","PinHeader_2x15_P2.54mm_Vertical",""
-"Module:mcu/0.7","M1","mcu",""
+"Module:mega-mcu100/0.3","M1","mega-mcu100",""
